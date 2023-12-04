@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 
 
 function AirlineForm() {
-    let [airlineToAdd, setAirlineToAdd] = useState({ name: '' });
+    let [airlineToAdd, setAirlineToAdd] = useState('');
     const dispatchEvent = useDispatch();
     
     const addAirline = (e) => {
